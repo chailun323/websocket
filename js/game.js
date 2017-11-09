@@ -246,7 +246,7 @@ var Game = function () {
     }
   }
   //底部增加行
-  var addTaillines = function (lines) {
+  var addTailLines = function (lines) {
     for (var i = 0; i < gameData.length - lines.length; i++) {
       gameData[i] = gameData[i + lines.length];
     }
@@ -286,5 +286,5 @@ var Game = function () {
   this.setTime = setTime;
   this.addScore = addScore;
   this.gameover = gameover;
-  this.addTaillines = addTaillines;
+  this.addTailLines = addTailLines;
 }
